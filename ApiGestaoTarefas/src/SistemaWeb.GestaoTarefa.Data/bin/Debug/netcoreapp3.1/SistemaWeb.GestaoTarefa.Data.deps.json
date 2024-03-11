@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SistemaWeb.GestaoTarefa.Data/1.0.0": {
+        "runtime": {
+          "SistemaWeb.GestaoTarefa.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaWeb.GestaoTarefa.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

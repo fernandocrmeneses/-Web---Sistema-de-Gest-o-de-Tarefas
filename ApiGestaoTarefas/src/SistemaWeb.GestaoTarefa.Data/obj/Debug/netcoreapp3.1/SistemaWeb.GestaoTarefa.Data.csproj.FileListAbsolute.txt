@@ -1,0 +1,9 @@
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\bin\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.deps.json
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\bin\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.dll
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\bin\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.pdb
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\obj\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\obj\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.AssemblyInfoInputs.cache
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\obj\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.AssemblyInfo.cs
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\obj\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\obj\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.dll
+C:\Projetos\GitHubRepositoriosParaTrampos\-Web-Sistema-de-Gestao-de-Tarefas\ApiGestaoTarefas\src\SistemaWeb.GestaoTarefa.Data\obj\Debug\netcoreapp3.1\SistemaWeb.GestaoTarefa.Data.pdb
