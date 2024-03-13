@@ -11,17 +11,17 @@ namespace SistemaWeb.GestaoTarefa.Dominio.Entidades
         public UsuarioEntidade Usuario { get; private set; }
         public int Codigo { get; private set; }
 
-        public SetorEntidade Setor { get; private set; }
+        public ICollection<SetorEntidade> Setor { get; private set; }
 
-        public List<GestorEntidade> Gestores { get; set; }
+        public ICollection<DepartamentosGestoresEntidade> DepartamentoGestores { get; private set; }
 
-        public DepartamentoEntidade(string nome, UsuarioEntidade usuario, int codigo, SetorEntidade setor, List<GestorEntidade> gestores)
+        public DepartamentoEntidade(string nome, UsuarioEntidade usuario, int codigo, ICollection<SetorEntidade> setor, ICollection<DepartamentosGestoresEntidade> departamentoGestores)
         {
             Nome = nome;
             Usuario = usuario;
             Codigo = codigo;
             Setor = setor;
-            Gestores = gestores;
+            DepartamentoGestores = departamentoGestores;
         }
     }
 }

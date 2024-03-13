@@ -11,5 +11,4 @@
   <ItemGroup>
     <Folder Include="ValidadorDeEntidades\" />
   </ItemGroup>
-
 </Project>

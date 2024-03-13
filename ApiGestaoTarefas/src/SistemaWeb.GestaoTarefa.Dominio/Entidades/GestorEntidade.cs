@@ -10,13 +10,15 @@ namespace SistemaWeb.GestaoTarefa.Dominio.Entidades
 
         public UsuarioEntidade Usuario { get; private set; }
 
-        public List<Guid> IdDepartamentos { get; private set; }
+        public ICollection<DepartamentosGestoresEntidade> DepartamentoGestores { get; private set; }
 
-        public GestorEntidade(int codigoGestor, UsuarioEntidade usuario, List<Guid> idDepartamentos)
+
+
+        public GestorEntidade(int codigoGestor, UsuarioEntidade usuario, ICollection<DepartamentosGestoresEntidade> departamentosGestores)
         {
             CodigoGestor = codigoGestor;
             Usuario = usuario;
-            IdDepartamentos = idDepartamentos;
+            DepartamentoGestores = departamentosGestores;
         }
     }
 }
