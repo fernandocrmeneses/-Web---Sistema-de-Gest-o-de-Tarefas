@@ -15,13 +15,18 @@ namespace SistemaWeb.GestaoTarefa.Dominio.Entidades
 
         public ICollection<DepartamentosGestoresEntidade> DepartamentoGestores { get; private set; }
 
-        public DepartamentoEntidade(string nome, UsuarioEntidade usuario, int codigo, ICollection<SetorEntidade> setor, ICollection<DepartamentosGestoresEntidade> departamentoGestores)
+        public Guid IdEmpresa { get; set; }
+        public EmpresaEntidade Empresa { get; private set; }
+
+        public DepartamentoEntidade(string nome, UsuarioEntidade usuario, int codigo, ICollection<SetorEntidade> setor, ICollection<DepartamentosGestoresEntidade> departamentoGestores,Guid idEmpresa, EmpresaEntidade empresa)
         {
             Nome = nome;
             Usuario = usuario;
             Codigo = codigo;
             Setor = setor;
             DepartamentoGestores = departamentoGestores;
+            IdEmpresa = idEmpresa;
+            Empresa = empresa;  
         }
     }
 }

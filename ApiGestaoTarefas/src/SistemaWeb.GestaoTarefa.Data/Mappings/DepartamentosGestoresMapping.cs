@@ -12,6 +12,8 @@ namespace SistemaWeb.GestaoTarefa.Data.Mappings
         public void Configure(EntityTypeBuilder<DepartamentosGestoresEntidade> builder)
         {
             builder.HasKey(x => new { x.IdGestor, x.IdDepartamento });
+            builder.Property(c => c.DataCriacao).HasColumnType("datetime").HasColumnName("DataCriacao");
+            builder.Property(c => c.DataAtualizacao).HasColumnType("datetime").HasColumnName("DataAtualizacao");
 
             builder.HasOne<DepartamentoEntidade>()
                 .WithMany(x => x.DepartamentoGestores)
@@ -20,6 +22,8 @@ namespace SistemaWeb.GestaoTarefa.Data.Mappings
             builder.HasOne<GestorEntidade>()
                 .WithMany(x => x.DepartamentoGestores)
                 .HasForeignKey(fk => fk.IdGestor);
+
+            builder.ToTable("DEPARTAMENTOS_GESTORES");
         }
     }
 }
